@@ -1,0 +1,90 @@
+.nav {
+    position: fixed;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: 40px;
+    background-color: white;
+    opacity: .8;
+    border-bottom: 1px solid grey;
+    z-index: 1;
+    font-family: 'Voltaire', sans-serif;
+}
+
+.nav ul a {
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+    list-style-type: none;
+    padding: 0 10px;
+    font-size: 1.75rem;
+    font-family: 'Voltaire', sans-serif;
+    float: right;
+    margin-top: 10px;
+}
+
+.nav ul a:hover {
+    text-decoration: underline;
+}
+
+#active {
+    color: aqua;
+    opacity: .7;
+}
+
+html, body {
+    background: url("cover-image.jpg") fixed center center;
+    background-size: cover;
+    color: white;
+    height: 100%;
+}
+.body{
+    position: relative;
+    top: 80px;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+ol {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+h3 {
+    padding-top: 10px;
+    text-align: center;
+    font-style: bold;
+}
+
+blockquote {
+    text-align: center;
+    font-style: italic;
+    font-style: underline;
+    font-weight: 800;
+}
+
+img {
+    display: inline-block;
+    height: 450px;
+    width: 675px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px grey;
+}
+
+.images {
+    max-width: 1450px;
+    margin: 0 auto;
+}
+
+#me {
+    float: left;
+    font-family: 'Voltaire', sans-serif;
+}

@@ -1,0 +1,82 @@
+/* Copied over from main page */
+.nav {
+    position: fixed;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: 40px;
+    background-color: white;
+    opacity: .8;
+    border-bottom: 1px solid grey;
+    z-index: 1;
+    font-family: 'Voltaire', sans-serif;
+}
+
+.nav ul a {
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+    list-style-type: none;
+    padding: 0 10px;
+    font-size: 1.75rem;
+    font-family: 'Voltaire', sans-serif;
+    float: right;
+    margin-top: 10px;
+}
+
+.nav ul a:hover {
+    text-decoration: underline;
+}
+
+#profile {
+	position: relative;
+	height: auto;
+	width: 70%;
+	border-radius: 100%;
+	top: 42px;
+}
+
+#content {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+form {
+	padding: 20px;
+}
+
+.data {
+	margin: 0 0 20px 0;
+    border-radius: 5px;
+    background-color: lightgrey;
+}
+
+#button:hover {
+	color: aqua;
+}
+
+#button {
+    background-color: black;
+    color: white;
+    border-style: solid 2px black;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+#active {
+    color: aqua;
+    opacity: .7;
+}
+
+html, body{
+        background: rgba(164, 196, 127, .7);
+        width: 100%;
+        height: 100%;
+}
+
+#me {
+    float: left;
+    font-family: 'Voltaire', sans-serif;
+}
