@@ -1,0 +1,130 @@
+.body {
+    font-family: 'Voltaire', sans-serif;
+}
+
+.nav {
+    position: fixed;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: 40px;
+    background-color: white;
+    opacity: .8;
+    border-bottom: 1px solid grey;
+    z-index: 1;
+    font-family: 'Voltaire', sans-serif;
+}
+
+.nav ul a {
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+    list-style-type: none;
+    padding: 0 10px;
+    font-size: 1.75rem;
+    font-family: 'Voltaire', sans-serif;
+    float: right;
+    margin-top: 10px;
+}
+
+.nav ul a:hover {
+    text-decoration: underline;
+}
+
+.jumbotron {
+    background: url("background-img.jpg") no-repeat center center;
+    background-size: cover;
+    background-color: white;
+    color: black;
+    padding: 100px 25px;
+    height: 1050px;
+    position: relative;
+}
+
+.main {
+    margin-top: 200px;
+    position: relative;
+}
+
+.main a {
+    color: black;
+}
+
+#center-stuff {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#big-letter {   
+    font-size: 4em;
+}
+
+#first-line {
+    font-style: uppercase;
+}
+
+
+
+/* This is the every age DNA for Footer & Social Icons. */
+
+.footer {
+    border-top: 1px solid black;
+    height: 200px;
+    text-align: center;
+    padding: 0 40px
+}
+
+.footer p {
+    font-size: .9em;
+    margin: 2px 0;
+}
+
+#footer-about {
+    float: left;
+    max-width: 49%;
+}
+
+#footer-contact {
+    float: right;
+    max-width: 49%;
+}
+
+h4 {
+    border-bottom: 1px solid black;
+    color: grey;
+}
+
+#email {
+    text-decoration: none;
+    color: inherit;
+}
+
+#email:hover {
+    text-decoration: underline;
+    color: dodgerblue;
+}
+
+
+.row-social {
+    padding: 0 10px;
+    padding: 0 10px;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.row-social a img{
+    height: 40px;
+}
+
+#this-site {
+    font-size: .75em;
+}
+
+
+#profile-pic {
+    width: 25%;
+    height: 25%;
+    border-radius: 100%;
+}

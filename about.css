@@ -2,6 +2,8 @@
     font-family: 'Voltaire', sans-serif;
 }
 
+/*Nav Bar Styling*/
+
 .nav {
     position: fixed;
     width: 100%;
@@ -32,6 +34,8 @@
     text-decoration: underline;
 }
 
+/*Background image and text */
+
 .jumbotron {
     background: url("background-img.jpg") no-repeat center center;
     background-size: cover;
@@ -51,6 +55,8 @@
     color: black;
 }
 
+/*About me section */
+
 #center-stuff {
     max-width: 500px;
     margin: 0 auto;
@@ -67,7 +73,7 @@
 
 
 
-/* This is the every age DNA for Footer & Social Icons. */
+/* Footer & Social Icons. */
 
 .footer {
     border-top: 1px solid black;
@@ -117,6 +123,8 @@ h4 {
 .row-social a img{
     height: 40px;
 }
+
+/* Misc */
 
 #this-site {
     font-size: .75em;

@@ -1,4 +1,4 @@
-/* Copied over from main page */
+/* Nav bar styling. Copied over from main page */
 .nav {
     position: fixed;
     width: 100%;
@@ -43,12 +43,14 @@
     text-align: center;
 }
 
+/* Form styling */
+
 form {
 	padding: 20px;
 }
 
-.data {
-	margin: 0 0 20px 0;
+.form-control {
+	margin: 0;
     border-radius: 5px;
     background-color: lightgrey;
 }
@@ -79,4 +81,16 @@ html, body{
 #me {
     float: left;
     font-family: 'Voltaire', sans-serif;
+}
+
+/*Javascript CSS */
+
+.email-error, .firstname-error, .lastname-error, .comment-error, .notice {
+  color: black;
+  font-size: 16px;
+  font-weight: 600;
+  text-shadow: rgba(0, 0, 0, 0.7) 1px 1px 2px;
+  margin: 0;
+  line-height: 15px;
+  padding: 10px;
 }

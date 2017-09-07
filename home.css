@@ -1,3 +1,5 @@
+/*Nav Bar Styling*/
+
 .nav {
     position: fixed;
     width: 100%;
@@ -45,6 +47,8 @@ html, body {
     text-align: center;
 }
 
+/*Text fomatting */
+
 p {
     text-align: center;
     max-width: 400px;
@@ -70,7 +74,9 @@ blockquote {
     font-weight: 800;
 }
 
+/* Image formatting */
 img {
+    position: relative;
     display: inline-block;
     height: 450px;
     width: 675px;
@@ -87,4 +93,43 @@ img {
 #me {
     float: left;
     font-family: 'Voltaire', sans-serif;
+}
+
+.opaque {
+    opacity: .4;
+    transition: 1s;
+}
+
+.normal {
+    opacity: 1;
+    transition: 1s;
+}
+
+.phototext {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 60%;
+    margin: 0 auto;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .5s, visibility .7s;
+    font-family: 'Voltaire', sans-serif;
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+.one, .two, .three, .four, .five, .six{
+    display: inline;
+    position: relative;
+    height: 450px;
+    width: 675px;
+}
+
+
+.one:hover .phototext {
+  visibility: visible;
+  opacity: 1;
 }
