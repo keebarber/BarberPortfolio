@@ -31,7 +31,7 @@
 }
 
 .nav ul a:hover {
-    text-decoration: underline;
+    color: BurlyWood;
 }
 
 /*Background image and text */
@@ -85,11 +85,13 @@
 .footer p {
     font-size: .9em;
     margin: 2px 0;
+    margin: 0 auto;
+    max-width: 35%;
 }
 
 #footer-about {
     float: left;
-    max-width: 49%;
+    width: 49%;
 }
 
 #footer-contact {
@@ -131,7 +133,7 @@ h4 {
 }
 
 #active {
-    color: aqua;
+    color: darkcyan;
     opacity: .7;
 }
 

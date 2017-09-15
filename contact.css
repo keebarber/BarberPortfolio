@@ -26,7 +26,7 @@
 }
 
 .nav ul a:hover {
-    text-decoration: underline;
+    color: BurlyWood;
 }
 
 #profile {
@@ -68,14 +68,15 @@ form {
 }
 
 #active {
-    color: aqua;
+    color: darkcyan;
     opacity: .7;
 }
 
 html, body{
-        background: rgba(164, 196, 127, .7);
+        background: rgba(17, 63, 17, .6);
         width: 100%;
         height: 100%;
+        color: lightgrey;
 }
 
 #me {

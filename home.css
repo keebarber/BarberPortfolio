@@ -27,11 +27,11 @@
 }
 
 .nav ul a:hover {
-    text-decoration: underline;
+    color: BurlyWood;
 }
 
 #active {
-    color: aqua;
+    color: darkcyan;
     opacity: .7;
 }
 
